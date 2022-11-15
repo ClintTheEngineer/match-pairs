@@ -80,6 +80,20 @@ h1 {
     background-image: url(images/card-rear.png);
 }
 
+aside {
+    text-align: center;
+}
 
+#replay {
+    height: 50px;
+    width: 100px;
+    font-weight: 900px;
+}
 
-
+#replay:hover {
+  background-color: rgba(6, 123, 6, 0.724);
+  color: white;
+  transition: 2s;
+  cursor: pointer;
+  text-transform: uppercase;
+}

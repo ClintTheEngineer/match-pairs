@@ -89,9 +89,10 @@ const tempGrid = [...grid1, ...grid1];
 const fullGrid = tempGrid.map(value => ({ value, sort: Math.random() })).sort((a, b) => a.sort - b.sort).map(({ value }) => value);
 
 
-
-
-
+let cursor = document.getElementById('replay');
+cursor.onclick = () => {
+     location.reload()
+}
 
     
 
